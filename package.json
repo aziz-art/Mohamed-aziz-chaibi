@@ -1,0 +1,33 @@
+{
+  "name": "recipi",
+  "version": "1.0.0",
+  "description": "Recipi is a mobile app ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bileldh-ing/recipi_backend.git"
+  },
+  "author": "Appaxis Innovations Internship",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bileldh-ing/recipi_backend/issues"
+  },
+  "homepage": "https://github.com/bileldh-ing/recipi_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
